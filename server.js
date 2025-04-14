@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 import fs from 'node:fs';
-import path from 'node:path';
 
 const dataDir = path.join(process.cwd(), 'data');
 
