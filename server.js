@@ -1,5 +1,14 @@
 #!/usr/bin/env node
 
+import fs from 'node:fs';
+import path from 'node:path';
+
+const dataDir = path.join(process.cwd(), 'data');
+
+if (!fs.existsSync(dataDir)) {
+  fs.mkdirSync(dataDir, { recursive: true });
+}
+
 // native node modules
 import path from 'node:path';
 import util from 'node:util';
