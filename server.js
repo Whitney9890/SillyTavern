@@ -10,7 +10,6 @@ if (!fs.existsSync(dataDir)) {
 
 // native node modules
 import path from 'node:path';
-import util from 'node:util';
 import net from 'node:net';
 import dns from 'node:dns';
 import process from 'node:process';
