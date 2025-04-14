@@ -25,6 +25,7 @@ import responseTime from 'response-time';
 import helmet from 'helmet';
 import bodyParser from 'body-parser';
 import open from 'open';
+import util from 'node:util';
 
 // local library imports
 import { serverEvents, EVENT_NAMES } from './src/server-events.js';
